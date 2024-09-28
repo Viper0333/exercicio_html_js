@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação JS</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <form id="form-deposito">
+        <div class="container">
+            <div class="formulario">
+                <h2>Validação com JavaScript</h2>
+                <div>
+                    <label for="NumeroA">Número A:</label>
+                    <input type="number" name="NumeroA" id="NumeroA" required>
+                </div>
+                <div>
+                    <label for="NumeroB">Número B:</label>
+                    <input type="number" name="NumeroB" id="NumeroB" required>
+                </div>
+                <button>Enviar</button>
+                <p id="error-message" style="color: red; display: none;">O número B deve ser maior que o número A.</p>
+            </div>
+        </div>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
+
